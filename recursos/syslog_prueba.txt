@@ -1,0 +1,18 @@
+Oct  9 08:00:01 max systemd[1]: Started Daily apt download activities.
+Oct  9 08:01:14 max sshd[1523]: Failed password for invalid user admin from 192.168.1.50 port 52144 ssh2
+Oct  9 08:01:20 max sshd[1523]: Connection closed by invalid user admin 192.168.1.50 port 52144 [preauth]
+Oct  9 08:03:45 max kernel: [ 1234.567890] EXT4-fs error (device sda1): ext4_find_entry:1455: inode #131073: comm ls: reading directory lblock 0
+Oct  9 08:05:02 max CRON[2210]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct  9 08:07:33 max systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct  9 08:07:33 max systemd[1]: Failed to start The Apache HTTP Server.
+Oct  9 08:10:12 max NetworkManager[812]: <info>  [1728461412.1234] device (wlp2s0): state change: activated -> deactivated
+Oct  9 08:12:47 max systemd-logind[790]: New session 4 of user max.
+Oct  9 08:15:09 max dbus-daemon[701]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher'
+Oct  9 08:20:31 max kernel: [ 1830.112233] CRITICAL: temperature above threshold, cpu clock throttled
+Oct  9 08:22:18 max smartd[655]: Device: /dev/sda [SAT], FAILED SMART self-check. BACK UP DATA NOW!
+Oct  9 08:30:00 max CRON[2455]: (root) CMD (/usr/lib/php/sessionclean)
+Oct  9 08:33:51 max gnome-shell[1890]: Error: Failed to connect to the display server
+Oct  9 08:40:05 max systemd[1]: Started Session 5 of User max.
+Oct  9 08:45:27 max sudo[3021]: max : 3 incorrect password attempts ; TTY=pts/0 ; USER=root ; COMMAND=/usr/bin/apt update
+Oct  9 08:50:44 max postfix/smtp[3150]: connect to mail.example.com[203.0.113.9]:25: Connection timed out (error 110)
+Oct  9 09:00:01 max systemd[1]: Finished Daily apt upgrade and clean activities.

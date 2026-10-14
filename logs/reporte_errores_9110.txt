@@ -1,0 +1,10 @@
+FECHA    HORA      PROCESO              MENSAJE                                           
+-------- --------- -------------------- --------------------------------------------------
+Oct 9    08:01:14  sshd                 Failed password for invalid user admin from 192.16
+Oct 9    08:03:45  kernel               [ 1234.567890] EXT4-fs error (device sda1): ext4_f
+Oct 9    08:07:33  systemd              apache2.service: Failed with result 'exit-code'.  
+Oct 9    08:07:33  systemd              Failed to start The Apache HTTP Server.           
+Oct 9    08:20:31  kernel               [ 1830.112233] CRITICAL: temperature above thresho
+Oct 9    08:22:18  smartd               Device: /dev/sda [SAT], FAILED SMART self-check. B
+Oct 9    08:33:51  gnome-shell          Error: Failed to connect to the display server    
+Oct 9    08:50:44  postfix/smtp         connect to mail.example.com[203.0.113.9]:25: Conne
