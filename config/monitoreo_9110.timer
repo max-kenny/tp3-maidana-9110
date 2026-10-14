@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer para diagnóstico de red cada 5 minutos (legajo 9110)
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5m
+Unit=monitoreo_9110.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Diagnóstico de red - ping al gateway (legajo 9110)
+
+[Service]
+Type=oneshot
+ExecStart=/home/max/Escritorio/tps-para-hacer/tp3-maidana-9110/codigo/diagnostico_red.sh
