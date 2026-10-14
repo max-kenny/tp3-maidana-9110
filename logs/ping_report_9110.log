@@ -4042,3 +4042,15 @@ PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
 rtt min/avg/max/mdev = 1.478/2.034/2.620/0.407 ms
 [2026-10-14 15:09:25] Resultado: gateway 192.168.1.1 responde OK
 ----------------------------------------
+[2026-10-14 15:14:37] Haciendo ping a gateway 192.168.1.1
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=1.59 ms
+64 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=1.78 ms
+64 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=7.05 ms
+64 bytes from 192.168.1.1: icmp_seq=4 ttl=64 time=1.56 ms
+
+--- 192.168.1.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 1.561/2.994/7.049/2.342 ms
+[2026-10-14 15:14:37] Resultado: gateway 192.168.1.1 responde OK
+----------------------------------------
